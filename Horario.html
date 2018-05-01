@@ -98,13 +98,13 @@
 											<td style="text-align:center;">
 												<table style="width:100%">
 													<tr>
+														<td style="text-align:center;display:none;" >Sistema</td>
 														<td style="text-align:center;">Horario de Salida Deseado</td><!--style="display:none" -->
-														<td style="text-align:center;display:none;">Sistema</td>
 														<td style="text-align:center;">Tiempo</td>
 													</tr>
 													<tr><!-- style="display:none" -->
-														<td ><input class="form-control input-sm boletaHora" type="text" style="text-align:center;" value="" placeholder="Hora"  /></td>
 														<td style="text-align:center;display:none;"><span class="boleta"> 00:00</span></td>
+														<td ><input class="form-control input-sm boletaHora" type="text" style="text-align:center;" value="" placeholder="Hora"  /></td>
 														<td><input class="form-control input-sm boletaInst" type="text" style="text-align:center;" data-format="hh:mm" value="" placeholder="Tiempo"  /></td>
 													</tr>
 												</table>
@@ -138,7 +138,7 @@
 					<!--información-->
 					<div class="row">
 						<!--compensacion-->
-				    		<div class="col-md-6 col-sm-6 col-xs-12">
+				    		<div class="col-md-4 col-sm-4 col-xs-12">
 				      			<div class="info-box">
 								<span class="info-box-icon bg-yellow"><i class="fa fa-bell"></i></span>
 								<div class="info-box-content">
@@ -146,16 +146,29 @@
 						  			<span class="info-box-number s-compensacion">
 										12:00
 									</span>
+									
 								</div>
 							</div>
 					    	</div>
 						<!--en edificio-->
-					    	<div class="col-md-6 col-sm-6 col-xs-12">
+					    	<div class="col-md-4 col-sm-4 col-xs-12">
 					      		<div class="info-box">
 								<span class="info-box-icon bg-aqua"><i class="fa fa-home"></i></span>
 								<div class="info-box-content">
 						  			<span class="info-box-text">En Edificio</span>
 						  			<span class="info-box-number s-enedificio">
+										12:00
+									</span>
+								</div>
+					      		</div>
+					    	</div>
+						<!--Salida-->
+					    	<div class="col-md-4 col-sm-4 col-xs-12">
+					      		<div class="info-box">
+								<span class="info-box-icon bg-green"><i class="fa fa-sign-out"></i></span>
+								<div class="info-box-content">
+						  			<span class="info-box-text">Salida</span>
+						  			<span class="info-box-number s-salida">
 										12:00
 									</span>
 								</div>
@@ -192,7 +205,7 @@
 				</div>            
 				<div class="box-body">
 					<div class="pull-right hidden-xs version">
-					  <b>Version</b> 3.0
+					  <b>Version</b> 3.2
 					</div>
 					<strong> <a href="#" class="licencia" target="_black">MIT License</a>.</strong>
 				</div>
